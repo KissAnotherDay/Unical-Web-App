@@ -1,0 +1,91 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+p {
+    margin-bottom: 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+}
+
+.nav-link {
+    color: white ; /* Cambia il colore dei link della navbar */
+    font-weight: bold; /* Rende il testo in grassetto */
+
+}
+
+.nav-link:hover {
+     text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border-style: solid;
+    border-color: black;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    color: white;
+}
+th {
+    background-color: gray;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: gray;
+
+}
+tr:hover {
+    background-color: green;
+}
+tr{
+    background-color: gray;
+}
+
+[class="bd_custom"]{
+    background-color: #333333;
+    color: white;
+}
+
+[class="alert alert-info text-center"]{
+    background-color: bisque;
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    border-style: solid;
+    border-color: azure;
+    border-width: 10px;
+    font-weight: bolder;
+}
+
+[class="bkg"]{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
