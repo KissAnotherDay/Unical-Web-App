@@ -9,9 +9,9 @@ import java.util.List;
 
 public class PiattoDaoImpl implements PiattoDao {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/your_database"; // Modifica con il tuo URL
-    private static final String USER = "your_user"; // Modifica con il tuo username
-    private static final String PASSWORD = "your_password"; // Modifica con la tua password
+    private static final String URL = "jdbc:mysql://localhost:3306/dbprova"; 
+    private static final String USER = ""; 
+    private static final String PASSWORD = ""; 
 
     @Override
     public List<Piatto> findAll() {
